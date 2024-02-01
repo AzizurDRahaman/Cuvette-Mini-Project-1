@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* hero */
+
+.hero{
+    background-color: #FFCD9E;
+    display: flex;
+    padding: 50px 100px 50px 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero h1{
+    font-weight: 700;
+    color: #282828;
+    line-height: 54px;
+    font-size: 40px;
+    margin: 25px auto;
+}
+
+.hero .hero-para{
+    font-weight: 400;
+    color: #484848;
+    line-height: 32px;
+    font-size: 20px;
+    margin: 25px 0 25px;
+    width: 650px;
+}
+
+.hero h4{
+    line-height: 32px;
+    margin: 25px auto;
+    color: #282828;
+    font-weight: 800;
+}
+
+.hero input{
+    width: 350px;
+    padding: 12px;
+    font-weight: 600;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.hero button{
+    padding: 10px 20px;
+    background-color: #282828;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero .hero-spam{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-left: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    color:white;
+    padding: 50px 110px;
+}
+
+.footer ul{
+    list-style: none;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.footer .left-footer{
+    margin-left: 50px;
+}
+.footer .right-footer{
+    text-align: right;
+    margin-right: 120px;
+}
+
+.footer .right-footer p{
+    margin-top: 10px;
+}
